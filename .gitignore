@@ -1,0 +1,8 @@
+.DS_Store
+*.o
+delivery
+Sparkle.framework
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+

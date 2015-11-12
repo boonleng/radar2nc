@@ -16,7 +16,7 @@ On Mac:
 * [Xcode 6]
 
 
-[GNU C Compiler]: http://gcc.gnu.org
+[GCC]: http://gcc.gnu.org
 [Xcode 6]: https://developer.apple.com/xcode
 [NetCDF]: http://www.unidata.ucar.edu/software/netcdf
 [RSL]: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl
@@ -32,13 +32,7 @@ http://www.ncdc.noaa.gov/nexradinv/map.jsp
 TRMM Radar Software Library
 ---------------------------
 
-NASA (National Aeronautics and Space Administration) GSFC (Goddard Space Flight Center) provides a software library for ingesting various format of radar data. The library can be downloaded from
+NASA (National Aeronautics and Space Administration) GSFC (Goddard Space Flight Center) provides a software library for ingesting various format of radar data. The library depends on several other libraries so be sure the NetCDF, and HDF5, if you want supported, are installed prior to the installation of the library. The RSL can be downloaded from
 
 http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
-
-### Installation ###
-
-	configure
-	make
-	sudo make install
 
